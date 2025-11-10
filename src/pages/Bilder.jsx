@@ -46,7 +46,7 @@ export default function Bilder() {
                         className="w-full h-full object-cover"
                       />
                     </div>
-                    <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold">
+                    <p className="text-base sm:text-lg md:text-xl lg:text-2xl font-semibold text-center leading-snug break-all whitespace-normal">
                       {titel}
                     </p>
                   </a>

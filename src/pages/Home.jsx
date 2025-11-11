@@ -224,15 +224,9 @@ export default function MyComponent() {
             zu zehn verschiedene Guggenmusiken teil, von welchen die meisten aus
             der Region kommen.
           </p>
-          <p className="mt-12 mb-4 text-xl sm:text-2xl font-semibold">
-            13.02.2025
-          </p>
-          <p className="mt-4 mb-20 text-base sm:text-xl">
-            Weiter Infos folgen.
-          </p>
 
           <img
-            src={bgImage}
+            src="/public/titelbilder/Bierdeckel_1.svg"
             alt="Flyer"
             className="w-full h-auto rounded drop-shadow-custom-lg mb-10"
           />

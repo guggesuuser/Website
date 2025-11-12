@@ -41,7 +41,7 @@ export default function Bilder() {
                   >
                     <div className="w-full aspect-[3/4] mb-4 overflow-hidden rounded-md">
                       <img
-                        src={bild}
+                        src={`${import.meta.env.BASE_URL}${bild}`}
                         alt={titel}
                         className="w-full h-full object-cover"
                       />

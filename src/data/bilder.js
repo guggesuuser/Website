@@ -1,70 +1,68 @@
-const BASE_URL = "/titelbilder/";
-
 export const alben = [
   {
     jahr: 2023,
     titel: "11.11",
     link: "https://photos.app.goo.gl/2JMfipmceyYfXQAu6",
-    bild: `${BASE_URL}11.11.2023.jpg`,
+    bild: "titelbilder/11.11.2023.jpg",
   },
   {
     jahr: 2025,
     titel: "Christbaumsammeln",
     link: "https://photos.app.goo.gl/ey4YYyYGiZ9BDEMW9",
-    bild: `${BASE_URL}Christbaumsammeln2025.jpg`,
+    bild: "titelbilder/Christbaumsammeln2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Ulm",
     link: "https://photos.app.goo.gl/MSaDEhn69ARoNdQQ9",
-    bild: `${BASE_URL}Ulm2025.jpg`,
+    bild: "titelbilder/Ulm2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Gams",
     link: "https://photos.app.goo.gl/ScvYmkJQCy5mM3te7",
-    bild: `${BASE_URL}Gams2025.jpg`,
+    bild: "titelbilder/Gams2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Rebstein",
     link: "https://photos.app.goo.gl/n3pvV4SmAaVY39qT7",
-    bild: `${BASE_URL}Rebstein2025.jpg`,
+    bild: "titelbilder/Rebstein2025.jpg",
   },
   {
     jahr: 2025,
     titel: "SchmuDo",
     link: "https://photos.app.goo.gl/Ra9PUbhVsScd5sy5A",
-    bild: `${BASE_URL}SchmuDo2025.jpg`,
+    bild: "titelbilder/SchmuDo2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Mönsterli",
     link: "https://photos.app.goo.gl/jPAtAdC64s65mnZo6",
-    bild: `${BASE_URL}Mönsterli2025.jpg`,
+    bild: "titelbilder/Mönsterli2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Fasnachtssamstag",
     link: "https://photos.app.goo.gl/huinNeRuiTzovdpX8",
-    bild: `${BASE_URL}Fasnachtssamstag2025.jpg`,
+    bild: "titelbilder/Fasnachtssamstag2025.jpg",
   },
   {
     jahr: 2025,
     titel: "17.+18. Januar",
     link: "https://photos.app.goo.gl/45PyYyMGTgYoUKHQ6",
-    bild: `${BASE_URL}17.18.Januar2025.jpg`,
+    bild: "titelbilder/17.18.Januar2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Fasnachtssonntag",
     link: "https://photos.app.goo.gl/sWqgiXQMKnK3omuH6",
-    bild: `${BASE_URL}Fasnachtssonntag2025.jpg`,
+    bild: "titelbilder/Fasnachtssonntag2025.jpg",
   },
   {
     jahr: 2025,
     titel: "Fasnachtsmontag",
     link: "https://photos.app.goo.gl/Ls1WNBc5UBXdEDzb6",
-    bild: `${BASE_URL}Fasnachtsmontag2025.jpg`,
+    bild: "titelbilder/Fasnachtsmontag2025.jpg",
   },
 ];

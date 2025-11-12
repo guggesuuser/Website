@@ -18,6 +18,8 @@ export default function Header() {
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
+  const base = import.meta.env.BASE_URL; // "/" lokal, "/Website/" auf GitHub Pages
+
   useEffect(() => {
     let lastScrollY = window.pageYOffset;
 
@@ -78,7 +80,7 @@ export default function Header() {
         <NavItem icon={<FaHome size={24} />} text="Home" href="/" />
         <HashLink
           smooth
-          to="/#termine"
+          to="#termine"
           className="flex items-center gap-2 hover:text-pri"
         >
           <FaCalendarAlt size={24} /> <span>Termine</span>
@@ -86,11 +88,12 @@ export default function Header() {
 
         <HashLink
           smooth
-          to="/#moensterli"
+          to="#moensterli"
           className="flex items-center gap-2 hover:text-pri"
         >
           <FaOptinMonster size={24} /> <span>Mönsterli</span>
         </HashLink>
+
         <NavItem icon={<FaUsers size={24} />} text="Verein" href="/verein" />
         <NavItem icon={<FaImages size={24} />} text="Galerie" href="/bilder" />
       </nav>

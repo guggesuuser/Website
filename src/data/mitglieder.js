@@ -126,7 +126,7 @@ export const registerMitglieder = [
         alt: "Trompete",
       },
       {
-        name: "Leoni",
+        name: "Leonie",
         bild: "mitglieder/Leoni.jpg",
         hoverBild: "mitglieder/Leoni.jpg",
         alt: "Trompete",

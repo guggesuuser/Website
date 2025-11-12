@@ -1,4 +1,6 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import {
   FaOptinMonster,
   FaCalendarAlt,
@@ -45,8 +47,8 @@ export default function Header() {
         showNav ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <a
-        href="/"
+      <Link
+        to="/"
         className="flex-shrink-0 z-30 mt-[50px] sm:mt-[100px] md:mt-[140px] lg:mt-[180px]"
       >
         <img
@@ -54,7 +56,7 @@ export default function Header() {
           alt="Logo"
           className="w-20 sm:w-32 md:w-40 lg:w-48 max-w-full h-auto drop-shadow-custom-lg"
         />
-      </a>
+      </Link>
 
       <button
         onClick={toggleMenu}
@@ -74,16 +76,21 @@ export default function Header() {
         `}
       >
         <NavItem icon={<FaHome size={24} />} text="Home" href="/" />
-        <NavItem
-          icon={<FaCalendarAlt size={24} />}
-          text="Termine"
-          href="/#termine"
-        />
-        <NavItem
-          icon={<FaOptinMonster size={24} />}
-          text="Mönsterli"
-          href="/#moensterli"
-        />
+        <HashLink
+          smooth
+          to="/#termine"
+          className="flex items-center gap-2 hover:text-pri"
+        >
+          <FaCalendarAlt size={24} /> <span>Termine</span>
+        </HashLink>
+
+        <HashLink
+          smooth
+          to="/#moensterli"
+          className="flex items-center gap-2 hover:text-pri"
+        >
+          <FaOptinMonster size={24} /> <span>Mönsterli</span>
+        </HashLink>
         <NavItem icon={<FaUsers size={24} />} text="Verein" href="/verein" />
         <NavItem icon={<FaImages size={24} />} text="Galerie" href="/bilder" />
       </nav>
@@ -93,12 +100,12 @@ export default function Header() {
 
 function NavItem({ icon, text, href }) {
   return (
-    <a
-      href={href}
+    <Link
+      to={href}
       className="flex items-center gap-2 transition-colors duration-200 hover:text-pri"
     >
       {icon}
       <span>{text}</span>
-    </a>
+    </Link>
   );
 }

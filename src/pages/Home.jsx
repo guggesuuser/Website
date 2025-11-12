@@ -226,7 +226,7 @@ export default function MyComponent() {
           </p>
 
           <img
-            src="/public/titelbilder/Bierdeckel_1.svg"
+            src={`${import.meta.env.BASE_URL}titelbilder/Bierdeckel_1.svg`}
             alt="Flyer"
             className="w-full h-auto rounded drop-shadow-custom-lg mb-10"
           />

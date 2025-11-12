@@ -7,6 +7,7 @@ import "swiper/css";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import { termine } from "../data/termine";
 import { kontakte } from "../data/kontakte";
+import { HashLink } from "react-router-hash-link";
 
 export default function MyComponent() {
   const clipPaths = {
@@ -140,12 +141,13 @@ export default function MyComponent() {
                           }
                         )}
                       </p>
-                      <a
-                        href="#moensterli"
+                      <HashLink
+                        smooth
+                        to="/#moensterli"
                         className="text-xs sm:text-sm md:text-base lg:text-lg px-8 py-2 bg-pri hover:bg-yellow-600 text-qua rounded inline-block"
                       >
                         Link
-                      </a>
+                      </HashLink>
                     </>
                   ) : (
                     <p className="text-xs sm:text-sm md:text-base lg:text-lg">

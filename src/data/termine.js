@@ -4,7 +4,7 @@ export const termine = [
     beschreibung: "Sommerfest",
     link: "https://example.com/fest",
   },
-  { datum: "2026-01-09", beschreibung: "Fiirobigbar Bernhardzel ", link: null },
+  { datum: "2026-01-09", beschreibung: "Firobigbar Bernhardzel ", link: null },
   {
     datum: "2026-01-10",
     beschreibung: "Warmup Party Schaffhausen",

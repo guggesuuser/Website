@@ -80,7 +80,7 @@ export default function Header() {
         <NavItem icon={<FaHome size={24} />} text="Home" href="/" />
         <HashLink
           smooth
-          to="#termine"
+          to="/#termine" // <-- von der Root aus, nicht relativ
           className="flex items-center gap-2 hover:text-pri"
         >
           <FaCalendarAlt size={24} /> <span>Termine</span>
@@ -88,7 +88,7 @@ export default function Header() {
 
         <HashLink
           smooth
-          to="#moensterli"
+          to="/#moensterli"
           className="flex items-center gap-2 hover:text-pri"
         >
           <FaOptinMonster size={24} /> <span>Mönsterli</span>

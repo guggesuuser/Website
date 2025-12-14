@@ -184,22 +184,36 @@ export default function MyComponent() {
 
               return (
                 <div key={t.datum + i} className="mb-8 text-xl sm:text-2xl">
-                  <div className="flex justify-between items-center">
+                  <div className="flex justify-between items-start gap-4">
                     <div className="flex-1 min-w-0">
                       <div className="font-semibold">{datumFormat}</div>
                       <div>{t.beschreibung}</div>
+
+                      {/* Programmpunkte */}
+                      {t.programmpunkte && (
+                        <ul className="mt-2 ml-4 space-y-1 text-lg sm:text-xl text-textd/80">
+                          {t.programmpunkte.map((p, idx) => (
+                            <li key={idx} className="flex gap-3">
+                              <span className="font-medium">{p.zeit}</span>
+                              <span>– {p.ort}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      )}
                     </div>
+
                     {t.link && t.link.trim() !== "" && (
                       <a
                         href={t.link}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="ml-4 px-4 py-2 text-base sm:text-lg text-white bg-pri rounded hover:bg-opacity-80 transition whitespace-nowrap"
+                        className="px-4 py-2 text-base sm:text-lg text-white bg-pri rounded hover:bg-opacity-80 transition whitespace-nowrap self-start"
                       >
                         Eventlink
                       </a>
                     )}
                   </div>
+
                   {i < kommendeTermine.length - 1 && (
                     <hr className="mt-4 border-qui" />
                   )}

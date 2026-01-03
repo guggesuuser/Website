@@ -41,7 +41,7 @@ export default function Verein() {
           <img
             src={logo}
             alt="Logo"
-            className="float-right ml-4 mb-6 w-48 sm:w-60 md:w-72 rounded drop-shadow-custom-lg"
+            className="float-right ml-4 mb-6 max-w-[40%] sm:max-w-[30%] md:max-w-[25%] rounded drop-shadow-custom-lg"
           />
 
           <p className="mb-6 text-base sm:text-xl">

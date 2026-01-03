@@ -17,6 +17,7 @@ export default function Header() {
   const [showNav, setShowNav] = useState(true);
 
   const toggleMenu = () => setIsOpen(!isOpen);
+  const closeMenu = () => setIsOpen(false);
 
   const base = import.meta.env.BASE_URL; // "/" lokal, "/Website/" auf GitHub Pages
 
@@ -49,8 +50,10 @@ export default function Header() {
         showNav ? "translate-y-0" : "-translate-y-full"
       }`}
     >
-      <Link
-        to="/"
+      <HashLink
+        smooth
+        to="/#start"
+        onClick={() => setIsOpen(false)} // Menü schließen wie bei den anderen Links
         className="flex-shrink-0 z-30 mt-[50px] sm:mt-[100px] md:mt-[140px] lg:mt-[180px]"
       >
         <img
@@ -58,7 +61,7 @@ export default function Header() {
           alt="Logo"
           className="w-20 sm:w-32 md:w-40 lg:w-48 max-w-full h-auto drop-shadow-custom-lg"
         />
-      </Link>
+      </HashLink>
 
       <button
         onClick={toggleMenu}
@@ -77,11 +80,20 @@ export default function Header() {
           + backdrop-blur-md
         `}
       >
-        <NavItem icon={<FaHome size={24} />} text="Home" href="/" />
+        <HashLink
+          smooth
+          to="/#start" // <-- von der Root aus, nicht relativ
+          className="flex items-center gap-2 hover:text-pri"
+          onClick={closeMenu}
+        >
+          <FaHome size={24} /> <span>Home</span>
+        </HashLink>
+
         <HashLink
           smooth
           to="/#termine" // <-- von der Root aus, nicht relativ
           className="flex items-center gap-2 hover:text-pri"
+          onClick={closeMenu}
         >
           <FaCalendarAlt size={24} /> <span>Termine</span>
         </HashLink>
@@ -90,21 +102,33 @@ export default function Header() {
           smooth
           to="/#moensterli"
           className="flex items-center gap-2 hover:text-pri"
+          onClick={closeMenu}
         >
           <FaOptinMonster size={24} /> <span>Mönsterli</span>
         </HashLink>
 
-        <NavItem icon={<FaUsers size={24} />} text="Verein" href="/verein" />
-        <NavItem icon={<FaImages size={24} />} text="Galerie" href="/bilder" />
+        <NavItem
+          icon={<FaUsers size={24} />}
+          text="Verein"
+          href="/verein"
+          onClick={closeMenu}
+        />
+        <NavItem
+          icon={<FaImages size={24} />}
+          text="Galerie"
+          href="/bilder"
+          onClick={closeMenu}
+        />
       </nav>
     </header>
   );
 }
 
-function NavItem({ icon, text, href }) {
+function NavItem({ icon, text, href, onClick }) {
   return (
     <Link
       to={href}
+      onClick={onClick}
       className="flex items-center gap-2 transition-colors duration-200 hover:text-pri"
     >
       {icon}

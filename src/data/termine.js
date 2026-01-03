@@ -52,10 +52,26 @@ export const termine = [
     programmpunkte: [{ ort: "St.Margrethen", zeit: "11:00" }],
   },
   {
+    datum: "2026-02-06",
+    beschreibung: "Rebsta Beizentour",
+    link: null,
+    programmpunkte: [
+      { ort: "Progyhalle", zeit: "20:15" },
+      { ort: "Mehrlust", zeit: "21:45" },
+      { ort: "Kreuz X Quer", zeit: "24:00" },
+    ],
+  },
+  {
     datum: "2026-02-07",
     beschreibung: "Rheinpark",
     link: null,
     programmpunkte: [{ ort: "Rheinpark", zeit: "10:00" }],
+  },
+  {
+    datum: "2026-02-07",
+    beschreibung: "Rebstein",
+    link: null,
+    programmpunkte: [{ ort: "Tebstein", zeit: "13:51" }],
   },
   {
     datum: "2026-02-07",

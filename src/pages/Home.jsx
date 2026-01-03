@@ -172,7 +172,7 @@ export default function MyComponent() {
             Hier findest du unsere kommenden Termine:
           </p>
 
-          {/* Termine-Liste */}
+          {/* Termine-Liste  */}
           <div>
             {kommendeTermine.map((t, i) => {
               const datumObj = new Date(t.datum);

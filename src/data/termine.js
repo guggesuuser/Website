@@ -1,10 +1,4 @@
 export const termine = [
-  { datum: "2026-01-09", beschreibung: "Firobigbar Bernhardzel ", link: null },
-  {
-    datum: "2026-01-10",
-    beschreibung: "Warmup Party Schaffhausen",
-    link: "https://www.rhy-gusler.ch/",
-  },
   {
     datum: "2026-01-16",
     beschreibung: "Beizentour Widnau",
@@ -12,6 +6,16 @@ export const termine = [
     programmpunkte: [
       { ort: "Jakobsbar", zeit: "21:00" },
       { ort: "Restaurant Sonne", zeit: "23:00" },
+    ],
+  },
+    {
+    datum: "2026-01-18",
+    beschreibung: "Umzug Fussach",
+    link: "",
+    programmpunkte: [
+      { ort: "Umzugstart", zeit: "14:00" },
+      { ort: "Vor der alten Stickerei", zeit: "16:40" },
+      { ort: "Schulplatz", zeit: "17:20" },
     ],
   },
   {
@@ -27,6 +31,10 @@ export const termine = [
     datum: "2026-01-25",
     beschreibung: "Guggenfestival Fürstenland  (Gossau)",
     link: "https://guggenfestival.gugago.ch/",
+    programmpunkte: [
+      { ort: "Umzugstart", zeit: "12:12" },
+      { ort: "Festzellt beim BBC Butterbarcafe", zeit: "15:00" },
+    ],
   },
   {
     datum: "2026-01-31",
@@ -35,7 +43,6 @@ export const termine = [
     programmpunkte: [
       { ort: "Hengetenplatz", zeit: "16:30" },
       { ort: "Kirchplatz", zeit: "18:10" },
-      { ort: "Monsterkonzer", zeit: "18:15" },
     ],
   },
   {
@@ -44,16 +51,16 @@ export const termine = [
     link: "https://www.oberrieter-maskenball.ch/",
     programmpunkte: [{ ort: "MZH Burgwies Oberriet", zeit: "21:15" }],
   },
-  { datum: "2026-02-01", beschreibung: "Rheineck Umzug", link: null },
   {
     datum: "2026-02-01",
     beschreibung: "Follmond im Park",
     link: "https://www.follmond.ch/",
     programmpunkte: [{ ort: "St.Margrethen", zeit: "11:00" }],
   },
+  { datum: "2026-02-01", beschreibung: "Rheineck Umzug", link: null, programmpunkte: [{ ort: "Umzugstart", zeit: "13:13" }], },
   {
     datum: "2026-02-06",
-    beschreibung: "Rebsta Beizentour",
+    beschreibung: "Rebstein Beizentour",
     link: null,
     programmpunkte: [
       { ort: "Progyhalle", zeit: "20:15" },
@@ -69,25 +76,25 @@ export const termine = [
   },
   {
     datum: "2026-02-07",
-    beschreibung: "Rebstein",
+    beschreibung: "Umzug Rebstein",
     link: null,
-    programmpunkte: [{ ort: "Tebstein", zeit: "13:51" }],
+    programmpunkte: [{ ort: "Rebstein", zeit: "13:51" }],
   },
   {
     datum: "2026-02-07",
     beschreibung: "Guggamusik-Nacht in Feldkirch",
     link: null,
-    programmpunkte: [{ ort: "Feldkirch", zeit: "20:00" }],
+    programmpunkte: [{ ort: "Marktplatz", zeit: "18:55" }, { ort: "Umzugstart", zeit: "20:00" }, { ort: "Sparkasseenplatz", zeit: "21:00" }, { ort: "Altes Hallenbad", zeit: "23:20" }, ],
   },
   {
     datum: "2026-02-12",
     beschreibung: "Schmudo",
     link: null,
     programmpunkte: [
-      { ort: "Alphabank Berneck", zeit: "09:00" },
-      { ort: "Schulhaus Wyden Widnau", zeit: "09:50" },
-      { ort: "ALTERS- & PFLEGEHEIM Berneck", zeit: "11:00" },
+      { ort: "Schulhaus Wyden Widnau", zeit: "09:30" },
+      { ort: "Alters- & Pflegeheim Berneck", zeit: "11:00" },
       { ort: "Kinderumzug Berneck", zeit: "14:00" },
+      { ort: "Alphabank Berneck", zeit: "15:30" },
       { ort: "Haus des Weines", zeit: "17:00" },
       { ort: "Alters- und Pflegeheim Hof Haslach Au", zeit: "18:00" },
       { ort: "3-König", zeit: "19:00" },
@@ -111,11 +118,29 @@ export const termine = [
     programmpunkte: [{ ort: "Berneck", zeit: "17:30" }],
   },
   { datum: "2026-02-14", beschreibung: "Maskenball Kriessern", link: null },
+  {
+    datum: "2026-02-15",
+    beschreibung: "Umzug Altstätten",
+    link: null,
+    programmpunkte: [{ ort: "Umzugstart", zeit: "14:11" }, { ort: "Marktgasse Mitte", zeit: "17:00" }],
+  },
+  {
+    datum: "2026-02-16",
+    beschreibung: "Umzug Wangemer im Allgäu",
+    link: null,
+    programmpunkte: [{ ort: "Umzugstart", zeit: "14:00" }],
+  },
   { datum: "2026-02-16", beschreibung: "Pyjamaball Kriessern", link: null },
   {
     datum: "2026-02-17",
-    beschreibung: "Letzter aufritt Rothusstega",
+    beschreibung: "Letzter Aufritt Rathaustreppe",
     link: null,
     programmpunkte: [{ ort: "Rothusstega Berneck", zeit: "22:45" }],
+  },
+  {
+    datum: "2026-02-17",
+    beschreibung: "Funkensonntag Au",
+    link: null,
+    programmpunkte: [{ ort: "Umzugstart", zeit: "18:30" }],
   },
 ];

@@ -58,7 +58,7 @@ export default function MyComponent() {
 
   const naechsterTermin = kommendeTermine[0];
 
-  const moensterliTermin = termine.find((t) => t.beschreibung === "Mönsterli");
+  const moensterliTermin = termine.find((t) => t.beschreibung === "Mönsterli Berneck");
 
   const tourmanager = kontakte.find((k) => k.funktion === "Tourplaner");
 

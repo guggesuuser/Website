@@ -58,7 +58,9 @@ export default function MyComponent() {
 
   const naechsterTermin = kommendeTermine[0];
 
-  const moensterliTermin = termine.find((t) => t.beschreibung === "Mönsterli Berneck");
+  const moensterliTermin = termine.find(
+    (t) => t.beschreibung === "Mönsterli Berneck"
+  );
 
   const tourmanager = kontakte.find((k) => k.funktion === "Tourplaner");
 
@@ -242,7 +244,9 @@ export default function MyComponent() {
             der Region kommen.
           </p>
           <img
-            src={`${import.meta.env.BASE_URL}titelbilder/Bierdeckel_1.svg`}
+            src={`${
+              import.meta.env.BASE_URL
+            }titelbilder/Moensterli_Vikings_schriftFett_2026.png`}
             alt="Flyer"
             className="w-full h-auto rounded drop-shadow-custom-lg mb-10"
           />
@@ -559,6 +563,11 @@ export default function MyComponent() {
                 </tbody>
               </table>
             </div>
+            <img
+              src={`${import.meta.env.BASE_URL}titelbilder/Bierdeckel_1.svg`}
+              alt="Flyer"
+              className="w-full h-auto rounded drop-shadow-custom-lg mb-10"
+            />
           </div>
           {/* --- SPIELPLAN TABELLE ENDE --- */}
           <p className="mt-20 mb-4 text-xl sm:text-2xl font-semibold">

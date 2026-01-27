@@ -65,4 +65,34 @@ export const alben = [
     link: "https://photos.app.goo.gl/Ls1WNBc5UBXdEDzb6",
     bild: "titelbilder/Fasnachtsmontag2025.jpg",
   },
+  {
+    jahr: 2026,
+    titel: "Umzug Gossau",
+    link: "https://photos.app.goo.gl/Nw86SFm6NihrayZc8",
+    bild: "titelbilder/Umzug_Gossau.JPG",
+  },
+  {
+    jahr: 2026,
+    titel: "Jubiläum Röraheizär",
+    link: "https://photos.app.goo.gl/xZJ9CBttsBcTATt98",
+    bild: "titelbilder/40_Roehraheizer.jpeg",
+  },
+  {
+    jahr: 2026,
+    titel: "Umzug Fussach",
+    link: "https://photos.app.goo.gl/mEJPLKmunqUFpRB68",
+    bild: "titelbilder/Umzug_Fussach.jpeg",
+  },
+  {
+    jahr: 2026,
+    titel: "Christbaumsammeln",
+    link: "https://photos.app.goo.gl/XyZCyy8PbyNAyVpA9",
+    bild: "titelbilder/Christbaumsammeln.jpeg",
+  },
+  {
+    jahr: 2026,
+    titel: "Firobigbar Bernhardzell",
+    link: "https://photos.app.goo.gl/ZpGQKx6qq5etPCui9",
+    bild: "titelbilder/Firobigbar_Bernhardzell.jpeg",
+  },
 ];

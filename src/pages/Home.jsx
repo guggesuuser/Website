@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import bgImage from "../assets/logo/Guggesuuser_Viking.png";
+import bgImage from "../assets/Hintergrund.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, EffectFade } from "swiper/modules";
 import "swiper/css/effect-fade";
@@ -59,7 +59,7 @@ export default function MyComponent() {
   const naechsterTermin = kommendeTermine[0];
 
   const moensterliTermin = termine.find(
-    (t) => t.beschreibung === "Mönsterli Berneck"
+    (t) => t.beschreibung === "Mönsterli Berneck",
   );
 
   const tourmanager = kontakte.find((k) => k.funktion === "Tourplaner");
@@ -68,7 +68,15 @@ export default function MyComponent() {
     <>
       <section
         id="start"
-        className="relative w-full h-screen py-16 text-qua bg-center bg-no-repeat bg-cover"
+        className="
+    relative
+    w-full
+    h-screen
+    text-qua
+    bg-no-repeat
+    bg-cover
+    bg-[center_top_0px]
+  "
         style={{ backgroundImage: `url(${bgImage})` }}
       >
         <div
@@ -116,7 +124,7 @@ export default function MyComponent() {
                           {
                             day: "2-digit",
                             month: "long",
-                          }
+                          },
                         )}
                       </p>
                     </>
@@ -140,7 +148,7 @@ export default function MyComponent() {
                             day: "2-digit",
                             month: "long",
                             year: "numeric",
-                          }
+                          },
                         )}
                       </p>
                       <HashLink

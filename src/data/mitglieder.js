@@ -121,7 +121,7 @@ export const registerMitglieder = [
       },
       {
         name: "Angelina",
-        bild: "mitglieder/Angelina.jpg",
+        bild: "mitglieder/Angelina_Viking.jpg",
         hoverBild: "mitglieder/Angelina.jpg",
         alt: "Trompete",
       },
@@ -221,7 +221,7 @@ export const registerMitglieder = [
       },
       {
         name: "Stefan",
-        bild: "mitglieder/Stefan.jpg",
+        bild: "mitglieder/Stefan_Viking.jpg",
         hoverBild: "mitglieder/Stefan.jpg",
         alt: "Euphonium",
       },

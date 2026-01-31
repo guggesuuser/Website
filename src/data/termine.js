@@ -8,7 +8,7 @@ export const termine = [
       { ort: "Restaurant Sonne", zeit: "23:00" },
     ],
   },
-    {
+  {
     datum: "2026-01-18",
     beschreibung: "Umzug Fussach",
     link: "",
@@ -57,7 +57,12 @@ export const termine = [
     link: "https://www.follmond.ch/",
     programmpunkte: [{ ort: "St.Margrethen", zeit: "11:00" }],
   },
-  { datum: "2026-02-01", beschreibung: "Rheineck Umzug", link: null, programmpunkte: [{ ort: "Umzugstart", zeit: "13:13" }], },
+  {
+    datum: "2026-02-01",
+    beschreibung: "Rheineck Umzug",
+    link: null,
+    programmpunkte: [{ ort: "Umzugstart", zeit: "13:13" }],
+  },
   {
     datum: "2026-02-06",
     beschreibung: "Rebstein Beizentour",
@@ -84,7 +89,12 @@ export const termine = [
     datum: "2026-02-07",
     beschreibung: "Guggamusik-Nacht in Feldkirch",
     link: null,
-    programmpunkte: [{ ort: "Marktplatz", zeit: "18:55" }, { ort: "Umzugstart", zeit: "20:00" }, { ort: "Sparkasseenplatz", zeit: "21:00" }, { ort: "Altes Hallenbad", zeit: "23:20" }, ],
+    programmpunkte: [
+      { ort: "Marktplatz", zeit: "18:55" },
+      { ort: "Umzugstart", zeit: "20:00" },
+      { ort: "Sparkasseenplatz", zeit: "21:00" },
+      { ort: "Altes Hallenbad", zeit: "23:20" },
+    ],
   },
   {
     datum: "2026-02-12",
@@ -122,7 +132,10 @@ export const termine = [
     datum: "2026-02-15",
     beschreibung: "Umzug Altstätten",
     link: null,
-    programmpunkte: [{ ort: "Umzugstart", zeit: "14:11" }, { ort: "Marktgasse Mitte", zeit: "17:00" }],
+    programmpunkte: [
+      { ort: "Umzugstart", zeit: "14:11" },
+      { ort: "Marktgasse Mitte", zeit: "17:00" },
+    ],
   },
   {
     datum: "2026-02-16",
@@ -138,7 +151,7 @@ export const termine = [
     programmpunkte: [{ ort: "Rothusstega Berneck", zeit: "22:45" }],
   },
   {
-    datum: "2026-02-17",
+    datum: "2026-02-22",
     beschreibung: "Funkensonntag Au",
     link: null,
     programmpunkte: [{ ort: "Umzugstart", zeit: "18:30" }],

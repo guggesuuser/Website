@@ -1,8 +1,8 @@
 # Projekt starten
 
-npm install
-npm run dev
+`npm install`
+`npm run dev`
 
 # Build
 
-npm run deploy
+`npm run deploy`

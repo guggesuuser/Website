@@ -1,11 +1,9 @@
 export const termine = [
   {
-    datum: "2026-01-16",
-    beschreibung: "Beizentour Widnau",
-    link: "https://punscherlitruppa.ch/?b=1000022&c=ED1000002&s=djEthCE-QUbDR0YtPklozL2FSV_pNIDPuBpWdnYfWoZC114=",
+    datum: "2026-11-11",
+    beschreibung: "Fasnachtsbeginn",
+    link: "",
     programmpunkte: [
-      { ort: "Jakobsbar", zeit: "21:00" },
-      { ort: "Restaurant Sonne", zeit: "23:00" },
     ],
   },
   {
@@ -111,7 +109,7 @@ export const termine = [
     ],
   },
   {
-    datum: "2026-02-13",
+    datum: "2027-02-05",
     beschreibung: "Mönsterli Berneck",
     link: "https://guggesuuser.ch/#/#moensterli",
   },

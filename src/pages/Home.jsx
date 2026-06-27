@@ -582,6 +582,10 @@ export default function MyComponent() {
             Sei mit dabei!
           </p>
           <p className="mt-4 text-base sm:text-xl mb-4">
+            <strong>Für 2027 sind wir bereits komplett ausgebucht – für 2028 haben wir
+              aber noch freie Plätze!
+            </strong>
+            <br />
             Wenn ihr eine Gugge seid, die Lust hat, auch dabei zu sein, dann
             meldet Euch doch bei unserer Tourplanerin Leticia unter:
           </p>

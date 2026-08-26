@@ -15,6 +15,6 @@ export const kontakte = [
     funktion: "Tourplaner",
     name: "Leticia Vettiger",
     email: "tourmanager@guggesuuser.ch",
-    telefon: "0041 77 266 60 31",
+    telefon: "0041 77 226 60 31",
   },
 ];

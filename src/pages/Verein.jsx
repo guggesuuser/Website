@@ -93,9 +93,9 @@ export default function Verein() {
                 className="w-60 h-96 bg-qua rounded-lg drop-shadow-custom-lg p-1 text-center flex flex-col items-center"
               >
                 <img
-                  src={`${import.meta.env.BASE_URL}${bild}`} // <- BASE_URL hinzufügen
+                  src={`${import.meta.env.BASE_URL}${bild}`}
                   alt={alt}
-                  className="w-full h-64 object-cover mb-8 rounded-md"
+                  className="w-full h-64 object-cover object-top mb-8 rounded-md"
                 />
                 <p className="text-lg font-semibold mb-1">{funktion}</p>
                 <p className="text-base">{name}</p>

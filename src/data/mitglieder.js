@@ -79,7 +79,7 @@ export const registerMitglieder = [
         alt: "Monoblock",
       },
       {
-        name: "Daria (Jung)",
+        name: "Daria (L)",
         bild: "mitglieder/Daria_Viking.jpg",
         hoverBild: "mitglieder/Daria.jpg",
         alt: "Monoblock",
@@ -224,6 +224,12 @@ export const registerMitglieder = [
         bild: "mitglieder/Stefan_Viking.jpg",
         hoverBild: "mitglieder/Stefan.jpg",
         alt: "Euphonium",
+      },
+      {
+        name: "Andy (L)",
+        bild: "mitglieder/person.jpg",
+        hoverBild: "mitglieder/person.jpg",
+        alt: "Sousaphon",
       },
     ],
   },
